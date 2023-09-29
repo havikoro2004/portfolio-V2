@@ -1,4 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
+ background-image: url('./images/banner.jpg');
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -6,8 +11,60 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* Personnalisation de la barre de défilement pour Chrome */
+::-webkit-scrollbar {
+  width: 10px; /* Largeur de la barre de défilement */
+}
 
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Couleur de l'arrière-plan de la piste */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5); /* Couleur de la poignée de la barre de défilement avec opacité */
+  border-radius: 5px; /* Coins arrondis */
+}
+@font-face {
+  font-family: 'chakra';
+  src: url("./fonts/Chakra_Petch/ChakraPetch-SemiBold.ttf");
+}
+@font-face {
+  font-family: 'raleway';
+  src: url("./fonts/Raleway/Raleway-Regular.ttf");
+}
+.text-chakra {
+  font-family: 'chakra';
+}
+.text-raleway {
+  font-family: 'raleway';
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.slide-in {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: 10;
+}
+.slide-out {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: 10;
+}
+.menuUnder::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid rgb(255, 255, 255); /* Couleur et style de la ligne de soulignement */
+  width: 100%; /* Largeur de la ligne de soulignement par rapport à la largeur du texte */
+  margin: 0 auto; /* Centre la ligne de soulignement horizontalement */
+  padding-top: 3px; /* Ajustez la position verticale de la ligne de soulignement si nécessaire */
 }
