@@ -9,8 +9,7 @@ import studi2 from '../images/studi2.png'
 import studi4 from '../images/studi4.png'
 import studi6 from '../images/studi6.png'
 import sql from '../images/sql.svg'
-import xd from '../images/xd.svg'
-import doctrine from '../images/doctrine.svg'
+
 
 import tailwind from '../images/tailwind.svg'
 import ecf from '../images/ecf.png'
