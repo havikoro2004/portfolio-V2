@@ -10,7 +10,6 @@ function NavBar() {
   const toggleMenuBurger =()=>{
     setMenuOpen(!menuOpen)
   }
-console.log(active);
   return (
     <div className=' text-white container max-w-screen-xl fixed top-0 left-0 right-0'>
       <div className={`absolute flex justify-between flex-col md:flex-row ${ menuOpen ? 'top-0' : 'top-[-490px]'} md:top-0 md:bg-opacity-0 bg-black w-full py-4 md:px-0 px-4 transition-all ease-out duration-300 md:transition-none max-h-[60vh] overflow-auto md:overflow-hidden` }>
@@ -31,7 +30,7 @@ console.log(active);
             </ul>
         </div>
 
-        <div className='relative right-0 md:absolute py-3'>
+        <div className='relative right-2 md:absolute py-3'>
             <ul className='flex gap-4 md:flex-row items-center justify-center p-4 md:p-0'>
               <li><Link target='_blank' to='https://www.linkedin.com/in/najib-flata'><FontAwesomeIcon icon={faGithub} className='text-2xl transition-all duration-300 ease-in-out hover:text-3xl' /></Link></li>
               <li><Link target='_blank' to='https://github.com/havikoro2004'><FontAwesomeIcon icon={faLinkedinIn} className='text-2xl transition-all duration-300 ease-in-out hover:text-3xl' /></Link></li>

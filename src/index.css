@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body {
+  padding-bottom: 1.5rem;
  background-image: url('./images/banner.jpg');
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -32,8 +33,15 @@ body {
   font-family: 'raleway';
   src: url("./fonts/Raleway/Raleway-Regular.ttf");
 }
+@font-face {
+  font-family: 'croissant';
+  src: url("./fonts/CroissantOne-Regular.ttf");
+}
 .text-chakra {
   font-family: 'chakra';
+}
+.text-croissant {
+  font-family: 'croissant';
 }
 .text-raleway {
   font-family: 'raleway';
@@ -67,4 +75,25 @@ code {
   width: 100%; /* Largeur de la ligne de soulignement par rapport à la largeur du texte */
   margin: 0 auto; /* Centre la ligne de soulignement horizontalement */
   padding-top: 3px; /* Ajustez la position verticale de la ligne de soulignement si nécessaire */
+}
+.icone-techno{
+  font-size: 1.2rem;
+}
+.svg {
+  color: white;
+  width: 65%;
+}
+@media (min-width: 768px) {
+  .icone-techno{
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .icone-techno{
+    font-size: 2rem;
+  }
+  .svg {
+    color: white;
+    width: 90%;
+  }
 }
