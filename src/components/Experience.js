@@ -32,7 +32,7 @@ function Experience() {
               initial={{ opacity: 0, x: +80 }} // Masquer le paragraphe initialement
               animate={{ opacity: 1, x: 0 }} // Faire apparaître le paragraphe avec une animation
               transition={{ duration: 0.5 }} // Durée de l'animation
-              className="h-[600px] w-full p-5 md:mb-0 mb-4"
+              className="h-[600px] w-full px-5 md:px-2 py-5 md:mb-0 mb-16"
             >
          <h1 className="text-4xl text-croissant underline mb-4">Contact</h1>
           <ul className='mb-4'>
@@ -96,7 +96,7 @@ function Experience() {
               initial={{ opacity: 0, x: -80 }} // Masquer le paragraphe initialement
               animate={{ opacity: 1, x: 0 }} // Faire apparaître le paragraphe avec une animation
               transition={{ duration: 0.5 }} // Durée de l'animation
-              className="h-[600px] w-full px-5"
+              className="h-[600px] w-full px-5 md:px-2"
             >
             <div className=' border-2 rounded-xl w-full h-full p-5 overflow-hidden overflow-y-auto mb-10'>
               <h1 className="text-4xl text-croissant underline mb-4">Expériences </h1>
