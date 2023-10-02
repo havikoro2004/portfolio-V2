@@ -25,7 +25,7 @@ function Experience() {
   }, []);
   return (
     <Transition>
-        <div className='w-full h-full  flex flex-col md:flex-row container max-w-screen-xl text-white items-center pt-24'>
+        <div className=' w-full h-full  flex flex-col md:flex-row container max-w-screen-xl text-white items-center pt-20 md:gap-0 gap-10'>
             {/* Side left */}
             {showParagraph && ( // Condition pour afficher le paragraphe lorsque showParagraph est true
             <motion.div
@@ -34,14 +34,14 @@ function Experience() {
               transition={{ duration: 0.5 }} // Durée de l'animation
               className="h-[600px] w-full px-5 md:px-2 py-5 md:mb-0 mb-16"
             >
-         <h1 className="text-4xl text-croissant underline mb-4">Contact</h1>
+         <h1 className="text-4xl text-croissant underline mb-4 text-center md:text-left">Contact</h1>
           <ul className='mb-4'>
             <li><FontAwesomeIcon icon={faEnvelope} /> havikoro2004@gmail.com</li>
             <li><FontAwesomeIcon icon={faPhone} /> +33 6 59 00 24 22</li>
             <li><FontAwesomeIcon icon={faMapLocation} />  46 chemin du canada 74800 Amancy</li>
             <li><FontAwesomeIcon icon={faAddressCard} /> Permis B</li>
           </ul>
-          <h1 className="text-4xl text-croissant underline mb-4">Formations</h1>
+          <h1 className="text-4xl text-croissant underline mb-4 text-center md:text-left">Formations</h1>
           <ul className='mb-4'>
             <li>
               <FontAwesomeIcon icon={faCheck} /> <strong>Studi </strong> (En ligne) / 2020 -2023
@@ -56,7 +56,7 @@ function Experience() {
               <p>Baccalauréat Sciences Expérimentales</p>
             </li>
           </ul>
-          <h1 className="text-4xl text-croissant underline mb-4">Langues</h1>
+          <h1 className="text-4xl text-croissant underline mb-4 text-center md:text-left">Langues</h1>
           <ul className='mb-4'>
             <li className='flex items-center gap-5 '>
             <span className='w-[80px]'>Français</span> 
