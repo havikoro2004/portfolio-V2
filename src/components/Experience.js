@@ -25,16 +25,16 @@ function Experience() {
   }, []);
   return (
     <Transition>
-      <div className=' h-screen flex items-end justify-center text-white container max-w-screen-xl flex-col md:flex-row'>
-
-              {showParagraph && ( // Condition pour afficher le paragraphe lorsque showParagraph est true
+        <div className='w-full h-full  flex flex-col md:flex-row container max-w-screen-xl text-white items-center pt-24'>
+            {/* Side left */}
+            {showParagraph && ( // Condition pour afficher le paragraphe lorsque showParagraph est true
             <motion.div
-              initial={{ opacity: 0, x: -80 }} // Masquer le paragraphe initialement
+              initial={{ opacity: 0, x: +80 }} // Masquer le paragraphe initialement
               animate={{ opacity: 1, x: 0 }} // Faire apparaître le paragraphe avec une animation
               transition={{ duration: 0.5 }} // Durée de l'animation
-              className="md:w-[80%] w-full h-full flex justify-center items-start flex-col px-10 md:px-2 mt-[80vh] mb-8 md:mb-0"
+              className="h-[600px] w-full p-5 md:mb-0 mb-4"
             >
- <h1 className="text-4xl text-croissant underline mb-4 mt-32">Contact</h1>
+         <h1 className="text-4xl text-croissant underline mb-4">Contact</h1>
           <ul className='mb-4'>
             <li><FontAwesomeIcon icon={faEnvelope} /> havikoro2004@gmail.com</li>
             <li><FontAwesomeIcon icon={faPhone} /> +33 6 59 00 24 22</li>
@@ -58,25 +58,25 @@ function Experience() {
           </ul>
           <h1 className="text-4xl text-croissant underline mb-4">Langues</h1>
           <ul className='mb-4'>
-            <li className='flex items-center justify-center gap-5 '>
+            <li className='flex items-center gap-5 '>
             <span className='w-[80px]'>Français</span> 
               <div className='bg-gray-500 w-[200px] h-[10px] rounded-xl'>
                 <div className='bg-white w-[80%] h-[10px] rounded-xl'></div>
               </div>
             </li>
-            <li className='flex items-center justify-center gap-5 '>
+            <li className='flex items-center gap-5 '>
               <span className='w-[80px]'>Anglais</span> 
               <div className='bg-gray-500 w-[200px] h-[10px] rounded-xl'>
                 <div className='bg-white w-[60%] h-[10px] rounded-xl'></div>
               </div>
             </li>
-            <li className='flex items-center justify-center gap-5 '>
+            <li className='flex items-center gap-5 '>
             <span className='w-[80px]'>Arabe</span> 
               <div className='bg-gray-500 w-[200px] h-[10px] rounded-xl'>
                 <div className='bg-white w-[95%] h-[10px] rounded-xl'></div>
               </div>
             </li>
-            <li className='flex items-center justify-center gap-5 '>
+            <li className='flex items-center gap-5 '>
             <span className='w-[80px]'>Espagnole</span> 
               <div className='bg-gray-500 w-[200px] h-[10px] rounded-xl'>
                 <div className='bg-white w-[30%] h-[10px] rounded-xl'></div>
@@ -86,14 +86,19 @@ function Experience() {
             <a target='_blank' href={cv} className=' bg-rose-600 p-2 rounded-xl'>Télécharger le CV</a>
             </motion.div>
           )}
-                 {showSlider && ( // Condition pour afficher le paragraphe lorsque showParagraph est true
+
+   
+
+            {/* Side right */}
+
+            {showParagraph && ( // Condition pour afficher le paragraphe lorsque showParagraph est true
             <motion.div
-              initial={{ opacity: 0, x: 80 }} // Masquer le paragraphe initialement
+              initial={{ opacity: 0, x: -80 }} // Masquer le paragraphe initialement
               animate={{ opacity: 1, x: 0 }} // Faire apparaître le paragraphe avec une animation
               transition={{ duration: 0.5 }} // Durée de l'animation
-              className="w-full h-[85%] flex justify-center items-center mt-4 md:mt-0 md:px-0 px-10"
+              className="h-[600px] w-full px-5"
             >
-            <div className=' border-2 rounded-xl w-full h-full p-5 overflow-hidden overflow-y-auto'>
+            <div className=' border-2 rounded-xl w-full h-full p-5 overflow-hidden overflow-y-auto mb-10'>
               <h1 className="text-4xl text-croissant underline mb-4">Expériences </h1>
                 <ul className='mb-4'>
                   <li>
@@ -164,10 +169,11 @@ function Experience() {
             </div>
             </motion.div>
           )}
+            
 
 
-          </div>
-
+          
+        </div>
     </Transition>
   )
 }

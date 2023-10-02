@@ -16,7 +16,7 @@ function NavBar() {
         <div className='mb-3 md:mb-0'>
             <ul className='flex gap-4 flex-col md:flex-row text-xl max-w-[90%]'>
               <li  className={`transition-all ease hover:bg-slate-50 hover:text-black p-2 hover:rounded-md ${active=='home' ? 'menuUnder' : ''}`}>
-                <Link to='/' onClick={()=>{setActive('home');setMenuOpen(!menuOpen)}}>Home</Link>
+                <Link to='/' onClick={()=>{setActive('home');setMenuOpen(!menuOpen)}}>Accueil</Link>
               </li>  
               <li   className={`transition-all ease hover:bg-slate-50 hover:text-black p-2 hover:rounded-md ${active=='portfolio' ? 'menuUnder' : ''}`}>
                 <Link to='/portfolio' onClick={()=>{setActive('portfolio');setMenuOpen(!menuOpen)}}>Portfolio</Link>

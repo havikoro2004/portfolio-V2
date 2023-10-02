@@ -40,7 +40,7 @@ function Portfolio() {
   const [carousPage,setCarousPage]=useState(1)
   return (
     <Transition>
-      <div className='flex container max-w-screen-xl px-2 h-screen md:flex-row flex-col gap-4'>
+      <div className='flex container max-w-screen-xl px-2 h-full md:flex-row flex-col gap-4'>
         <div className='md:w-[40%]  md:h-full h-[70%] flex justify-center md:items-center md:pb-32 pb-0 items-end '>
           <div className='text-white'>
           {showParagraph && ( // Condition pour afficher le paragraphe lorsque showParagraph est true

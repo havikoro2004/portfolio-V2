@@ -23,7 +23,7 @@ function Home() {
   }, []);
   return (
     <Transition>
-      <div className="h-screen flex flex-col sm:flex-row justify-center items-center container max-w-screen-xl p-5 sm:gap-3">
+      <div className="h-full flex flex-col sm:flex-row justify-center items-center container max-w-screen-xl p-5 sm:gap-3">
         <div className="order-2 sm:order-1 text-white w-full h-1/2 text-center flex flex-col justify-center">
         {showParagraph && ( // Condition pour afficher le paragraphe lorsque showParagraph est true
             <motion.div
@@ -33,12 +33,12 @@ function Home() {
               className="p-5 sm:p-0 text-justify sm:text-center text-md text-raleway"
             >
             <div className="flex justify-center sm:justify-start items-center gap-2">
-              <div>
+              <div className=' hidden md:block'>
                 <img className="w-20 sm:w-28 h-auto animate-spin-slow" src={open} alt="" />
               </div>
               <div>
-                <h1 className="text-5xl sm:text-7xl text-croissant">Najib Flata</h1>
-                <h2 className="text-xl sm:text-2xl mb-3">Développeur web et web mobile</h2>
+                <h1 className="text-4xl mb-2 md:mb-0 md:text-7xl text-croissant text-center">Najib Flata</h1>
+                <h2 className="text-xl md:text-2xl md:mb-3 mb-0 text-center">Développeur web et web mobile</h2>
               </div>
             </div>
             </motion.div>
