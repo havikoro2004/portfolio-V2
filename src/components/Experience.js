@@ -83,7 +83,7 @@ function Experience() {
               </div>
             </li>
           </ul>
-            <a href={cv} className=' bg-rose-600 p-2 rounded-xl'>Télécharger le CV</a>
+            <a target='_blank' href={cv} className=' bg-rose-600 p-2 rounded-xl'>Télécharger le CV</a>
             </motion.div>
           )}
                  {showSlider && ( // Condition pour afficher le paragraphe lorsque showParagraph est true
