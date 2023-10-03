@@ -19,7 +19,7 @@ function NavBar() {
       <div
         className={`absolute flex justify-between flex-col md:flex-row ${
           menuOpen ? "top-0" : "top-[-490px]"
-        } md:top-0 md:bg-opacity-0 bg-black w-full py-4 md:px-0 px-4 transition-all ease-out duration-300 md:transition-none max-h-[60vh] overflow-auto md:overflow-hidden`}
+        } md:top-0 lg:bg-opacity-0 bg-black w-full py-4 md:px-0 px-4 transition-all ease-out duration-300 md:transition-none max-h-[60vh] overflow-auto md:overflow-hidden`}
       >
         <div className="mb-3 md:mb-0">
           <ul className="flex gap-4 flex-col md:flex-row text-xl max-w-[90%]">

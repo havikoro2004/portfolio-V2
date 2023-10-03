@@ -50,7 +50,7 @@ function Portfolio() {
   const [carousPage, setCarousPage] = useState(1);
   return (
     <Transition>
-      <div className="h-[80px]"></div>
+      <div className="h-[100px]"></div>
       <div className="w-screen flex flex-col md:flex-row container max-w-screen-xl">
         <div className=" w-full md:h-[550px] h-[400x] md:px-2 md-5 flex flex-col items-center justify-center text-center text-white md:mb-0 mb-10">
           {showParagraph && ( // Condition pour afficher le paragraphe lorsque showParagraph est true

@@ -32,6 +32,7 @@ function Experience() {
   }, []);
   return (
     <Transition>
+      <div className="h-[50px]"></div>
       <div className=" w-full h-full  flex flex-col md:flex-row container max-w-screen-xl text-white items-center pt-20 md:gap-0 gap-10">
         {/* Side left */}
         {showParagraph && ( // Condition pour afficher le paragraphe lorsque showParagraph est true

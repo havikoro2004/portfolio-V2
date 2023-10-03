@@ -23,8 +23,9 @@ function Home() {
   }, []);
   return (
     <Transition>
-      <div className="h-full flex flex-col sm:flex-row justify-center items-center container max-w-screen-xl p-5 sm:gap-3">
-        <div className="order-2 sm:order-1 text-white w-full h-1/2 text-center flex flex-col justify-center">
+      <div className="h-[50px]"></div>
+      <div className="h-full flex flex-col md:flex-row justify-center items-center container max-w-screen-xl p-5 sm:gap-3">
+        <div className="order-2 md:order-1 text-white w-full h-1/2 text-center flex flex-col justify-center items-center">
           {showParagraph && ( // Condition pour afficher le paragraphe lorsque showParagraph est true
             <motion.div
               initial={{ opacity: 0, x: -80 }} // Masquer le paragraphe initialement
@@ -33,15 +34,15 @@ function Home() {
               className="p-5 sm:p-0 text-justify sm:text-center text-md text-raleway"
             >
               <div className="flex justify-center sm:justify-start items-center gap-2">
-                <div className=" hidden md:block">
+                <div className="hidden xl:block">
                   <img
                     className="w-20 sm:w-28 h-auto animate-spin-slow"
                     src={open}
                     alt=""
                   />
                 </div>
-                <div>
-                  <h1 className="text-4xl mb-2 md:mb-0 md:text-7xl text-croissant text-center">
+                <div className="flex justify-center flex-col items-center">
+                  <h1 className="text-4xl mb-2 md:mb-0 lg:text-7xl text-croissant text-center">
                     Najib Flata
                   </h1>
                   <h2 className="text-xl md:text-2xl md:mb-3 mb-0 text-center">
@@ -73,7 +74,7 @@ function Home() {
             initial={{ opacity: 0, y: -50 }} // Masquer le paragraphe initialement
             animate={{ opacity: 1, y: 0 }} // Faire apparaître le paragraphe avec une animation
             transition={{ duration: 0.5 }} // Durée de l'animation
-            className="order-1 sm:order-2 w-full h-full flex items-center justify-center"
+            className="order-1 md:order-2 w-full h-full flex items-center justify-center"
           >
             <img className="w-[80%] pt-10 md:w-full" src={profil} alt="" />
           </motion.div>
