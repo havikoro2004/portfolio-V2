@@ -12,7 +12,11 @@ function NavBar() {
     setMenuOpen(!menuOpen);
   };
   useEffect(()=>{
-    setActive(window.location.pathname.substring(1))
+    if (window.location.pathname.substring(1) !=='') {
+      setActive(window.location.pathname.substring(1))
+    }else {
+      setActive('home')
+    }
   },[])
   return (
     <div className=" text-white container max-w-screen-xl fixed top-0 left-0 right-0">
