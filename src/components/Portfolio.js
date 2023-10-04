@@ -50,9 +50,9 @@ function Portfolio() {
   const [carousPage, setCarousPage] = useState(1);
   return (
     <Transition>
-      <div className="h-[100px]"></div>
-      <div className="w-screen flex flex-col md:flex-row container max-w-screen-xl">
-        <div className=" w-full md:h-[550px] h-[400x] md:px-2 md-5 flex flex-col items-center justify-center text-center text-white md:mb-0 mb-10">
+      <div className="h-[120px] md:h-[100px]"></div>
+      <div className="w-screen flex flex-col md:flex-row container max-w-screen-xl z-0 ">
+        <div className="w-full md:h-[550px] h-[400x] md:px-2 md-5 flex flex-col items-center justify-center text-center text-white md:mb-0 mb-10">
           {showParagraph && ( // Condition pour afficher le paragraphe lorsque showParagraph est true
             <motion.div
               initial={{ opacity: 0, x: -80 }} // Masquer le paragraphe initialement
@@ -147,7 +147,7 @@ function Portfolio() {
             initial={{ opacity: 0, y: -80 }} // Masquer le paragraphe initialement
             animate={{ opacity: 1, y: 0 }} // Faire apparaître le paragraphe avec une animation
             transition={{ duration: 0.5 }} // Durée de l'animation
-            className="md:w-full mx-auto w-[95vw] md:h-[550px] h-[500px] flex items-start md:items-center justify-center overflow-hidden"
+            className="md:w-full mx-auto w-[95vw] md:h-[550px] h-[80vw] flex items-start md:items-center justify-center overflow-hidden"
           >
             <div className="">
               <div className=" ">

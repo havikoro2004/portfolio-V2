@@ -19,7 +19,7 @@ function NavBar() {
     }
   },[])
   return (
-    <div className=" text-white container max-w-screen-xl fixed top-0 left-0 right-0">
+    <div className=" text-white container max-w-screen-xl fixed top-0 left-0 right-0 z-40">
       <div
         className={`absolute flex justify-between flex-col md:flex-row ${
           menuOpen ? "top-0" : "top-[-490px]"
@@ -114,7 +114,7 @@ function NavBar() {
           </ul>
         </div>
       </div>
-      <div className="md:hidden p-4 w-full">
+      <div className="md:hidden p-4 w-full bg-black">
         {menuOpen ? (
           <button onClick={toggleMenuBurger}>
             <FontAwesomeIcon

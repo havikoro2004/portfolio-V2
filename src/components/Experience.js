@@ -40,9 +40,9 @@ function Experience() {
             initial={{ opacity: 0, x: +80 }} // Masquer le paragraphe initialement
             animate={{ opacity: 1, x: 0 }} // Faire apparaître le paragraphe avec une animation
             transition={{ duration: 0.5 }} // Durée de l'animation
-            className="h-[600px] w-full px-5 md:px-2 py-5 md:mb-0 mb-16"
+            className="h-[600px] w-full px-5 md:px-2 py-5 md:mb-0 mb-16  text-center md:text-left"
           >
-            <h1 className="text-4xl text-croissant underline mb-4 text-center md:text-left">
+            <h1 className="text-4xl text-croissant underline mb-4">
               Contact
             </h1>
             <ul className="mb-4">
@@ -83,27 +83,27 @@ function Experience() {
             <h1 className="text-4xl text-croissant underline mb-4 text-center md:text-left">
               Langues
             </h1>
-            <ul className="mb-4">
+            <ul className="mb-4 flex flex-col justify-center items-center md:items-start">
               <li className="flex items-center gap-5 ">
-                <span className="w-[80px]">Français</span>
+                <span className="w-[80px] text-left">Français</span>
                 <div className="bg-gray-500 w-[200px] h-[10px] rounded-xl">
                   <div className="bg-white w-[80%] h-[10px] rounded-xl"></div>
                 </div>
               </li>
               <li className="flex items-center gap-5 ">
-                <span className="w-[80px]">Anglais</span>
+                <span className="w-[80px] text-left">Anglais</span>
                 <div className="bg-gray-500 w-[200px] h-[10px] rounded-xl">
                   <div className="bg-white w-[60%] h-[10px] rounded-xl"></div>
                 </div>
               </li>
               <li className="flex items-center gap-5 ">
-                <span className="w-[80px]">Arabe</span>
+                <span className="w-[80px] text-left">Arabe</span>
                 <div className="bg-gray-500 w-[200px] h-[10px] rounded-xl">
                   <div className="bg-white w-[95%] h-[10px] rounded-xl"></div>
                 </div>
               </li>
               <li className="flex items-center gap-5 ">
-                <span className="w-[80px]">Espagnole</span>
+                <span className="w-[80px] text-left">Espagnole</span>
                 <div className="bg-gray-500 w-[200px] h-[10px] rounded-xl">
                   <div className="bg-white w-[30%] h-[10px] rounded-xl"></div>
                 </div>
