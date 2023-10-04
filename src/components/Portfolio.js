@@ -194,7 +194,7 @@ function Portfolio() {
                             />
                           </div>
                         </div>
-                        <div className="rounded-xl p-3 bg-rose-600">
+                        <div className="rounded-xl md:p-3 p-2 bg-rose-600">
                           <Link
                             target="_blank"
                             to="https://www.cours-yoga-marrakech.com/"
@@ -239,7 +239,7 @@ function Portfolio() {
                             />
                           </div>
                         </div>
-                        <div className="rounded-xl p-3 bg-rose-600">
+                        <div className="rounded-xl md:p-3 p-2 bg-rose-600">
                           <Link
                             target="_blank"
                             to="https://gestion.flata-tech.com/"
@@ -293,7 +293,7 @@ function Portfolio() {
                             />
                           </div>
                         </div>
-                        <div className="rounded-xl p-3 bg-rose-600">
+                        <div className="rounded-xl md:p-3 p-2 bg-rose-600">
                           <Link
                             target="_blank"
                             to="https://www.gestalt-maroc.com/"
@@ -334,7 +334,7 @@ function Portfolio() {
                             </Link>
                           </div>
                         </div>
-                        <div className="rounded-xl p-3 bg-rose-600">
+                        <div className="rounded-xl md:p-3 p-2 bg-rose-600">
                           <Link
                             target="_blank"
                             to="https://studi1.flata-tech.com/"
@@ -385,7 +385,7 @@ function Portfolio() {
                             </Link>
                           </div>
                         </div>
-                        <div className="rounded-xl p-3 bg-rose-600">
+                        <div className="rounded-xl md:p-3 p-2 bg-rose-600">
                           <Link
                             target="_blank"
                             to="https://studi4.flata-tech.com/"
@@ -430,7 +430,7 @@ function Portfolio() {
                             />
                           </div>
                         </div>
-                        <div className="rounded-xl p-3 bg-rose-600">
+                        <div className="rounded-xl md:p-3 p-2 bg-rose-600">
                           <Link
                             target="_blank"
                             to="https://github.com/havikoro2004/studi-eva6"
@@ -487,7 +487,7 @@ function Portfolio() {
                             </Link>
                           </div>
                         </div>
-                        <div className="rounded-xl p-3 bg-rose-600">
+                        <div className="rounded-xl md:p-3 p-2 bg-rose-600">
                           <Link
                             target="_blank"
                             to="https://studi2.flata-tech.com/"
@@ -532,7 +532,7 @@ function Portfolio() {
                             />
                           </div>
                         </div>
-                        <div className="rounded-xl p-3 bg-rose-600">
+                        <div className="rounded-xl md:p-3 p-2 bg-rose-600">
                           <Link
                             target="_blank"
                             to="https://github.com/havikoro2004/studi-eva-ecf"
@@ -556,7 +556,7 @@ function Portfolio() {
                     disabled={carousPage === 1}
                   >
                     <FontAwesomeIcon
-                      icon={carousPage === 2 ? solidCircle : faCircle}
+                      icon={carousPage === 2 ? faCircle : solidCircle}
                       className="text-white"
                     />
                   </button>
@@ -567,7 +567,7 @@ function Portfolio() {
                     disabled={carousPage === 2}
                   >
                     <FontAwesomeIcon
-                      icon={carousPage === 2 ? faCircle : solidCircle}
+                      icon={carousPage === 2 ? solidCircle : faCircle }
                       className="text-white"
                     />
                   </button>
