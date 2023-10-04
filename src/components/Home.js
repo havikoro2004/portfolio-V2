@@ -36,7 +36,7 @@ function Home() {
               <div className="flex justify-center sm:justify-start items-center gap-2">
                 <div className="hidden xl:block">
                   <img
-                    className="w-20 sm:w-28 h-auto animate-spin-slow"
+                    className="w-20 sm:w-24 h-auto animate-spin-slow"
                     src={open}
                     alt=""
                   />

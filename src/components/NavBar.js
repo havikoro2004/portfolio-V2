@@ -28,7 +28,7 @@ function NavBar() {
         <div className="mb-3 md:mb-0">
           <ul className="flex gap-4 flex-col md:flex-row text-xl max-w-[90%]">
             <li
-              className={`transition-all ease hover:bg-slate-50 hover:text-black p-2 hover:rounded-md ${
+              className={`transition-all ease hover:bg-[#F1F1F1] hover:text-black p-2 hover:rounded-md ${
                 active == "home" ? "menuUnder" : ""
               }`}
             >
@@ -43,7 +43,7 @@ function NavBar() {
               </Link>
             </li>
             <li
-              className={`transition-all ease hover:bg-slate-50 hover:text-black p-2 hover:rounded-md ${
+              className={`transition-all ease hover:bg-[#F1F1F1] hover:text-black p-2 hover:rounded-md ${
                 active == "portfolio" ? "menuUnder" : ""
               }`}
             >
@@ -58,7 +58,7 @@ function NavBar() {
               </Link>
             </li>
             <li
-              className={`transition-all ease hover:bg-slate-50 hover:text-black p-2 hover:rounded-md ${
+              className={`transition-all ease hover:bg-[#F1F1F1] hover:text-black p-2 hover:rounded-md ${
                 active == "experience" ? "menuUnder" : ""
               }`}
             >
@@ -73,7 +73,7 @@ function NavBar() {
               </Link>
             </li>
             <li
-              className={`transition-all ease hover:bg-slate-50 hover:text-black p-2 hover:rounded-md ${
+              className={`transition-all ease hover:bg-[#F1F1F1] hover:text-black p-2 hover:rounded-md ${
                 active == "contact" ? "menuUnder" : ""
               }`}
             >

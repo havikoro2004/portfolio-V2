@@ -68,13 +68,13 @@ function Contact() {
           initial={{ opacity: 0, x: -80 }} // Masquer le paragraphe initialement
           animate={{ opacity: 1, x: 0 }} // Faire apparaître le paragraphe avec une animation
           transition={{ duration: 0.5 }} // Durée de l'animation
-          className="h-screen flex items-center justify-center flex-col gap-3 mb-5"
+          className="h-screen w-full flex items-center justify-center flex-col gap-3 mb-5 container max-w-screen-xl"
         >
-          <div className="h-[80%] md:w-[70%] w-[90%] mt-32">
+          <div className="h-[80%] md:w-full w-[90%] mt-32 ">
             <h1 className="text-5xl text-croissant text-white text-center pb-10">
               Contact
             </h1>
-            <form onSubmit={sendEmail} action="" className="px-5 text-white">
+            <form onSubmit={sendEmail} action="" className="px-2 text-white">
               {load ? (
                 <div className="w-full border-2 py-2 rounded mx-auto my-5 text-center flex justify-center items-center gap-3">
                   <FontAwesomeIcon

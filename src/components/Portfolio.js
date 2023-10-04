@@ -63,7 +63,7 @@ function Portfolio() {
                 <h1 className="text-5xl lg:text-7xl text-croissant text-center md:pt-0">
                   Portfolio
                 </h1>
-                <p className="px-4 py-5 text-raleway">
+                <p className="px-4 text-raleway">
                   Explorez mon portfolio pour découvrir mes réalisations
                   professionnelles et les compétences que j'ai acquises au cours
                   de ma formation
@@ -163,7 +163,7 @@ function Portfolio() {
                       className={`relative transition-all ease-out duration-300 w-1/2 h-full flex items-center justify-center  border-2 rounded-md p-2`}
                     >
                       <img className="h-[90%]" src={yoga} alt="" />
-                      <div className="flex-col opacity-0 hover:opacity-90 transition-all ease-out duration-300 absolute top- bg-gradient-to-r from-sky-500 to-indigo-500 w-full text-white h-full flex items-center justify-center rounded">
+                      <div className="flex-col opacity-0 hover:opacity-90 transition-all ease-out duration-300 absolute bg-deep-purple-500 w-full text-white h-full flex items-center justify-center rounded">
                         <div className="md:mb-5 p-3 md:p-0 flex justify-center flex-wrap gap-3">
                           <div className="flex gap-3">
                             <FontAwesomeIcon
@@ -194,7 +194,7 @@ function Portfolio() {
                             />
                           </div>
                         </div>
-                        <div className="rounded-xl md:p-3 p-2 bg-rose-600">
+                        <div className="rounded-xl md:p-3 p-2 bg-pink-500">
                           <Link
                             target="_blank"
                             to="https://www.cours-yoga-marrakech.com/"
@@ -208,7 +208,7 @@ function Portfolio() {
                       className={`relative transition-all ease-out duration-300 w-1/2 h-full flex items-center justify-center  border-2 rounded-md p-2`}
                     >
                       <img className="h-[90%]" src={gestion} alt="" />
-                      <div className="flex-col opacity-0 hover:opacity-90 transition-all ease-out duration-300 absolute top- bg-gradient-to-r from-sky-500 to-indigo-500 w-full text-white h-full flex items-center justify-center rounded">
+                      <div className="flex-col opacity-0 hover:opacity-90 transition-all ease-out duration-300 absolute bg-deep-purple-500 w-full text-white h-full flex items-center justify-center rounded">
                         <div className="md:mb-5 p-3 md:p-0 flex justify-center flex-wrap gap-3">
                           <div className="flex gap-3">
                             <FontAwesomeIcon
@@ -239,7 +239,7 @@ function Portfolio() {
                             />
                           </div>
                         </div>
-                        <div className="rounded-xl md:p-3 p-2 bg-rose-600">
+                        <div className="rounded-xl md:p-3 p-2 bg-pink-500">
                           <Link
                             target="_blank"
                             to="https://gestion.flata-tech.com/"
@@ -262,7 +262,7 @@ function Portfolio() {
                       className={`relative transition-all ease-out duration-300 w-1/2 h-full flex items-center justify-center  border-2 rounded-md p-2`}
                     >
                       <img className="h-[90%]" src={gestalt} alt="" />
-                      <div className="flex-col opacity-0 hover:opacity-90 transition-all ease-out duration-300 absolute top- bg-gradient-to-r from-sky-500 to-indigo-500 w-full text-white h-full flex items-center justify-center rounded">
+                      <div className="flex-col opacity-0 hover:opacity-90 transition-all ease-out duration-300 absolute bg-deep-purple-500 w-full text-white h-full flex items-center justify-center rounded">
                         <div className="md:mb-5 p-3 md:p-0 flex justify-center flex-wrap gap-3">
                           <div className="flex gap-3">
                             <FontAwesomeIcon
@@ -293,7 +293,7 @@ function Portfolio() {
                             />
                           </div>
                         </div>
-                        <div className="rounded-xl md:p-3 p-2 bg-rose-600">
+                        <div className="rounded-xl md:p-3 p-2 bg-pink-500">
                           <Link
                             target="_blank"
                             to="https://www.gestalt-maroc.com/"
@@ -307,7 +307,7 @@ function Portfolio() {
                       className={`relative transition-all ease-out duration-300 w-1/2 h-full flex items-center justify-center  border-2 rounded-md p-2`}
                     >
                       <img className="h-[90%]" src={studi1} alt="" />
-                      <div className="flex-col opacity-0 hover:opacity-90 transition-all ease-out duration-300 absolute top- bg-gradient-to-r from-sky-500 to-indigo-500 w-full text-white h-full flex items-center justify-center rounded">
+                      <div className="flex-col opacity-0 hover:opacity-90 transition-all ease-out duration-300 absolute bg-deep-purple-500 w-full text-white h-full flex items-center justify-center rounded">
                         <div className="md:mb-5 p-3 md:p-0 flex justify-center flex-wrap gap-3">
                           <div className="flex gap-3">
                             <FontAwesomeIcon
@@ -334,7 +334,7 @@ function Portfolio() {
                             </Link>
                           </div>
                         </div>
-                        <div className="rounded-xl md:p-3 p-2 bg-rose-600">
+                        <div className="rounded-xl md:p-3 p-2 bg-pink-500">
                           <Link
                             target="_blank"
                             to="https://studi1.flata-tech.com/"
@@ -358,7 +358,7 @@ function Portfolio() {
                       className={`relative transition-all ease-out duration-300 w-1/2 h-full flex items-center justify-center  border-2 rounded-md p-2`}
                     >
                       <img className="h-[90%]" src={studi4} alt="" />
-                      <div className="flex-col opacity-0 hover:opacity-90 transition-all ease-out duration-300 absolute top- bg-gradient-to-r from-sky-500 to-indigo-500 w-full text-white h-full flex items-center justify-center rounded">
+                      <div className="flex-col opacity-0 hover:opacity-90 transition-all ease-out duration-300 absolute bg-deep-purple-500 w-full text-white h-full flex items-center justify-center rounded">
                         <div className="md:mb-5 p-3 md:p-0 flex justify-center flex-wrap gap-3">
                           <div className="flex gap-3">
                             <FontAwesomeIcon
@@ -385,7 +385,7 @@ function Portfolio() {
                             </Link>
                           </div>
                         </div>
-                        <div className="rounded-xl md:p-3 p-2 bg-rose-600">
+                        <div className="rounded-xl md:p-3 p-2 bg-pink-500">
                           <Link
                             target="_blank"
                             to="https://studi4.flata-tech.com/"
@@ -399,7 +399,7 @@ function Portfolio() {
                       className={`relative transition-all ease-out duration-300 w-1/2 h-full flex items-center justify-center  border-2 rounded-md p-2`}
                     >
                       <img className="h-[90%]" src={studi6} alt="" />
-                      <div className="flex-col opacity-0 hover:opacity-90 transition-all ease-out duration-300 absolute top- bg-gradient-to-r from-sky-500 to-indigo-500 w-full text-white h-full flex items-center justify-center rounded">
+                      <div className="flex-col opacity-0 hover:opacity-90 transition-all ease-out duration-300 absolute bg-deep-purple-500 w-full text-white h-full flex items-center justify-center rounded">
                         <div className="md:mb-5 p-3 md:p-0 flex justify-center flex-wrap gap-3">
                           <div className="flex gap-3">
                             <FontAwesomeIcon
@@ -430,7 +430,7 @@ function Portfolio() {
                             />
                           </div>
                         </div>
-                        <div className="rounded-xl md:p-3 p-2 bg-rose-600">
+                        <div className="rounded-xl md:p-3 p-2 bg-pink-500">
                           <Link
                             target="_blank"
                             to="https://github.com/havikoro2004/studi-eva6"
@@ -456,7 +456,7 @@ function Portfolio() {
                       className={`relative transition-all ease-out duration-300 w-1/2 h-full flex items-center justify-center  border-2 rounded-md p-2`}
                     >
                       <img className="h-[90%]" src={studi2} alt="" />
-                      <div className="flex-col opacity-0 hover:opacity-90 transition-all ease-out duration-300 absolute top- bg-gradient-to-r from-sky-500 to-indigo-500 w-full text-white h-full flex items-center justify-center rounded">
+                      <div className="flex-col opacity-0 hover:opacity-90 transition-all ease-out duration-300 absolute bg-deep-purple-500 w-full text-white h-full flex items-center justify-center rounded">
                         <div className="md:mb-5 p-3 md:p-0 flex justify-center flex-wrap gap-3">
                           <div className="flex gap-3">
                             <FontAwesomeIcon
@@ -487,7 +487,7 @@ function Portfolio() {
                             </Link>
                           </div>
                         </div>
-                        <div className="rounded-xl md:p-3 p-2 bg-rose-600">
+                        <div className="rounded-xl md:p-3 p-2 bg-pink-500">
                           <Link
                             target="_blank"
                             to="https://studi2.flata-tech.com/"
@@ -501,7 +501,7 @@ function Portfolio() {
                       className={`relative transition-all ease-out duration-300 w-1/2 h-full flex items-center justify-center  border-2 rounded-md p-2`}
                     >
                       <img className="h-[90%]" src={ecf} alt="" />
-                      <div className="flex-col opacity-0 hover:opacity-90 transition-all ease-out duration-300 absolute top- bg-gradient-to-r from-sky-500 to-indigo-500 w-full text-white h-full flex items-center justify-center rounded">
+                      <div className="flex-col opacity-0 hover:opacity-90 transition-all ease-out duration-300 absolute bg-deep-purple-500 w-full text-white h-full flex items-center justify-center rounded">
                         <div className="md:mb-5 p-3 md:p-0 flex justify-center flex-wrap gap-3">
                           <div className="flex gap-3">
                             <FontAwesomeIcon
@@ -532,7 +532,7 @@ function Portfolio() {
                             />
                           </div>
                         </div>
-                        <div className="rounded-xl md:p-3 p-2 bg-rose-600">
+                        <div className="rounded-xl md:p-3 p-2 bg-pink-500">
                           <Link
                             target="_blank"
                             to="https://github.com/havikoro2004/studi-eva-ecf"

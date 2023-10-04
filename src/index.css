@@ -80,7 +80,7 @@ code {
 .menuUnder::after {
   content: "";
   display: block;
-  border-bottom: 2px solid rgb(255, 255, 255); /* Couleur et style de la ligne de soulignement */
+  border-bottom: 2px solid #F1F1F1; /* Couleur et style de la ligne de soulignement */
   width: 100%; /* Largeur de la ligne de soulignement par rapport à la largeur du texte */
   margin: 0 auto; /* Centre la ligne de soulignement horizontalement */
   padding-top: 3px; /* Ajustez la position verticale de la ligne de soulignement si nécessaire */
@@ -103,6 +103,6 @@ code {
   }
   .svg {
     color: white;
-    width: 90%;
+    width: 60%;
   }
 }
