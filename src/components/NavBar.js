@@ -11,6 +11,9 @@ function NavBar() {
   const toggleMenuBurger = () => {
     setMenuOpen(!menuOpen);
   };
+  window.addEventListener('resize',()=>{
+    setMenuOpen(false)
+  })
   useEffect(()=>{
     if (window.location.pathname.substring(1) !=='') {
       setActive(window.location.pathname.substring(1))
@@ -22,7 +25,7 @@ function NavBar() {
     <div className=" text-white container max-w-screen-xl fixed top-0 left-0 right-0 z-40">
       <div
         className={`absolute flex justify-between flex-col md:flex-row ${
-          menuOpen ? "top-0" : "top-[-490px]"
+          menuOpen ? "top-0" : "top-[-1000px]"
         } md:top-0 lg:bg-opacity-0 bg-black w-full py-4 md:px-0 px-4 transition-all ease-out duration-300 md:transition-none max-h-[60vh] overflow-auto md:overflow-hidden`}
       >
         <div className="mb-3 md:mb-0">
